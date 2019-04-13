@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OnDepartmentActivity"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/departments"
+        android:scaleType="centerCrop"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:adjustViewBounds="true"
+        android:visibility="visible"
+        />
+
+    <TextView
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:lines="4"
+        android:textSize="25sp"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FACULTY"
+        android:textSize="24sp"
+        android:id="@+id/txt1"
+        />
+    <ImageView
+        android:id="@+id/oncivil"
+        android:scaleType="centerCrop"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:adjustViewBounds="true"
+        android:visibility="gone"
+        android:src="@drawable/civil2"
+
+        />
+
+    <ImageView
+        android:id="@+id/onenc"
+        android:scaleType="centerCrop"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:adjustViewBounds="true"
+        android:visibility="gone"
+        android:src="@drawable/enc2"
+        />
+
+    <ImageView
+        android:id="@+id/onele"
+        android:scaleType="centerCrop"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:adjustViewBounds="true"
+        android:visibility="gone"
+        android:src="@drawable/ele2"
+        />
+
+
+    <ImageView
+        android:id="@+id/onmech"
+        android:scaleType="centerCrop"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:adjustViewBounds="true"
+        android:visibility="gone"
+        android:src="@drawable/mech2"
+        />
+
+
+    <ImageView
+        android:id="@+id/oncse"
+        android:scaleType="centerCrop"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:adjustViewBounds="true"
+        android:visibility="gone"
+        android:src="@drawable/cse2"
+        />
+
+
+    <ImageView
+        android:id="@+id/onhumanities"
+        android:scaleType="centerCrop"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:adjustViewBounds="true"
+        android:visibility="gone"
+
+        />
+
+
+    <ImageView
+        android:id="@+id/onbussinessschool"
+        android:scaleType="centerCrop"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:adjustViewBounds="true"
+        android:visibility="gone"
+        android:src="@drawable/bussiness"
+
+        />
+
+
+    <ImageView
+        android:id="@+id/onmca"
+        android:scaleType="centerCrop"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:adjustViewBounds="true"
+        android:visibility="gone"
+        android:src="@drawable/mca2"
+        />
+
+
+</LinearLayout>

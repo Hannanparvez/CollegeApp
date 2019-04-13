@@ -1,0 +1,44 @@
+{
+  "project_info": {
+    "project_number": "423571255984",
+    "firebase_url": "https://ssmguide-f06a4.firebaseio.com",
+    "project_id": "ssmguide-f06a4",
+    "storage_bucket": "ssmguide-f06a4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:423571255984:android:d424ee5487bf688d",
+        "android_client_info": {
+          "package_name": "android.com.ssmguide.ssmguide"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "423571255984-j5fsnnlr72es35nea15141qtb8cstnp4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "android.com.ssmguide.ssmguide",
+            "certificate_hash": "cea73b8c612d43d1ad34edbde6eb360bb5dad9dd"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCmqx9AbRYlgYEE0AGuUW3YhGo5WWZb6Hc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "423571255984-25di3i574h1osdib2t85lms3mgvv54q7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
